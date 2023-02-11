@@ -9,6 +9,10 @@ export default {
 } as ComponentMeta<typeof CustomSlider>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof CustomSlider> = () => <CustomSlider />;
+const Template: ComponentStory<typeof CustomSlider> = () => (
+  <div>
+    <CustomSlider />
+  </div>
+);
 
 export const Default = Template.bind({});
